@@ -6,9 +6,4 @@ describe('conversor-de-moedas App', () => {
   beforeEach(() => {
     page = new ConversorDeMoedasPage();
   });
-
-  it('should display welcome message', () => {
-    page.navigateTo();
-    expect(page.getParagraphText()).toEqual('Welcome to my!');
-  });
 });
