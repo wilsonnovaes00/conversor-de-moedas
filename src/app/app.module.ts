@@ -7,8 +7,7 @@ import { ConversorComponent, ConversorModule } from './conversor';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    ConversorComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
