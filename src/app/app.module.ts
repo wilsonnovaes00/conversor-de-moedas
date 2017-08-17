@@ -2,7 +2,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { ConversorComponent } from './conversor/conversor.component';
+import { ConversorComponent, ConversorModule } from './conversor';
+
 
 @NgModule({
   declarations: [
@@ -10,7 +11,8 @@ import { ConversorComponent } from './conversor/conversor.component';
     ConversorComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    ConversorModule
   ],
   providers: [],
   bootstrap: [AppComponent]
